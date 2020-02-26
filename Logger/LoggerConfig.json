@@ -1,0 +1,24 @@
+{
+  "Severity": "Trace",
+  "Appenders": [
+    {
+      "Type": "Console",
+      "Color": "Red"
+    },
+    {
+      "Type": "File",
+      "Path": "CustomErrors.txt",
+      "MaxFileSize": "100"
+    },
+    {
+      "Type": "RollingFile",
+      "Path": "RollingCustomErrors.txt",
+      "MaxFileSize": "100"
+    },
+    //{
+    //  "Type": "Tcp",
+    //  "Host": ""
+    //}
+  ]
+} 
+
